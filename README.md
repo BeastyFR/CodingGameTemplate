@@ -1,0 +1,2 @@
+# CodingGameTemplate
+Template for CodingGameChallenge
