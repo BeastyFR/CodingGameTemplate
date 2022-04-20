@@ -1,0 +1,24 @@
+{
+  "name": "codinggamestemplate",
+  "version": "1.0.0",
+  "description": "Template for typescript project Coding Games into Visual Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "build-test": "tsc --build tsconfig.tests.json && node ./dist/app-tests.js",
+    "build-simulator": "tsc --build tsconfig.simulator.json",
+    "run-simulator": "tsc --build tsconfig.simulator.json && node ./dist/app-simulator.js",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:BeastyFR/CodingGameTemplate.git"
+  },
+  "author": "BeastyFR",
+  "license": "ISC",
+  "homepage": "https://github.com/BeastyFR/CodingGameTemplate",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "typescript": "^4.0.5"
+  }
+}
