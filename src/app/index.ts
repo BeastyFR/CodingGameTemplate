@@ -1,6 +1,6 @@
 /// <reference path="../util/Util.ts" />
 /// <reference path="../util/Log.ts" />
-/// <reference path="../app/Game.ts" />
+/// <reference path="./Game.ts" />
 
 declare var readline: any
 

@@ -48,3 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+.nyc_output
+coverage

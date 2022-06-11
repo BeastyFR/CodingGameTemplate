@@ -1,20 +1,20 @@
 {
-  "compilerOptions": {
-		"module":"amd",
-    "noImplicitAny": false,
-    "noEmitOnError": true,
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "es6",
+	"compilerOptions": {
+		"module": "amd",
+		"noImplicitAny": false,
+		"noEmitOnError": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"target": "es6",
 		"outFile": "dist/app.js"
-  },
-  "include": [
-		"util/**/*",
-		"app/**/*",
+	},
+	"include": [
+		"src/**/*",
 	],
-  "exclude" : [
-    "simulation/**/*",
-    "tests/**/*",
-    "dist/**/*"
-  ]
+	"exclude": [
+		"simulation/**/*",
+		"tests/**/*",
+		"dist/**/*",
+		"coverage/**/*"
+	]
 }
