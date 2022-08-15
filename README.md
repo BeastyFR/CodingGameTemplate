@@ -18,9 +18,11 @@ Copy the javascript default code from CodingGame to index.ts
 Solve the puzzle :p
 
 5. Build to 1 file
-`npm build`
+`npm run build`
 
 6. Configure the dist/app.js file to be the one that is synced with codingGame
 https://www.codingame.com/forum/t/codingame-sync-beta
 
+7. Run tests
+`npm test`
 
