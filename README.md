@@ -5,8 +5,11 @@ Ability to code into typescript in local, and uploading a js merged file to Codi
 0. Clone this repository
 `git clone https://github.com/BeastyFR/CodingGameTemplate.git`
 
-1. Install typescript (optional)
+0. Install typescript (optional)
 `npm install -g typescript`
+
+1. Get tools (optional)
+`git submodule add git@github.com:BeastyFR/CodingGameUtils.git src`
 
 2. Install dependencies
 `npm install`
