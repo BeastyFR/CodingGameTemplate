@@ -9,7 +9,7 @@ Ability to code into typescript in local, and uploading a js merged file to Codi
 `npm install -g typescript`
 
 1. Get tools (optional)
-`git submodule add git@github.com:BeastyFR/CodingGameUtils.git src`
+`git submodule add git@github.com:BeastyFR/CodingGameUtils.git src/utils`
 
 2. Install dependencies
 `npm install`
